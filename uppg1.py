@@ -4,7 +4,7 @@ namn = input("Vad heter du? ")
 print("jag heter stensaxpåsemästaren, nu ska det spelas! ")
 
 omgångar = int(input("Hur många omgångar vill du spela? "))
-if omgångar <= 0 or omgångar > 10 or omgångar == "":
+if omgångar <= 0 or omgångar > 10:
     print("Du måste spela mellan 1 och 10 omgångar!")
     exit("Avslutar spelet.")
 
@@ -38,4 +38,3 @@ elif score == omgångar / 2:
     print("Det blev oavgjort!")
 else:
     print("Datorn vann spelet!")
-
